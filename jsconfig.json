@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@redux/*": ["./src/redux/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@api/*": ["./src/api/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@components/*": ["./src/components/*"]
+    },
+    "baseUrl": ".",
+    "module": "es6"
+  },
+  "exclude": ["node_modules"]
+}
